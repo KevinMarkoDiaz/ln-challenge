@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+}
+
+/*card regular*/
+.card--regular {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 468px;
+  align-items: flex-start;
+}
+.card--regular .card__image--regular {
+  width: 100%;
+  height: 240px;
+  outline: 1px solid #F2F2F2;
+  background-color: #BCD6FF;
+}
+.card--regular .card__title--regular {
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  padding: 0.5rem 1rem;
+}
+.card--regular .card__title--regular span {
+  color: #0250C9;
+}
+.card--regular .card__description--regular {
+  font-family: Arial;
+  color: #333333;
+  font-size: 1rem;
+  line-height: 24px;
+  padding: 0px 1rem;
+}
+.card--regular .card__author--regular {
+  font-family: Arial;
+  color: #272727;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 0.5rem 1rem;
+}
+
+/*card author*/
+.card--author {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 240.57px;
+  margin: 20px;
+  padding: 1rem 1rem 0px 1rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #CCCCCC;
+}
+.card--author .card__image--author {
+  width: 56.57px;
+  min-height: 56.57px;
+  background-color: #CCCCCC;
+  border-radius: 50%;
+  order: 2;
+  margin: 0.5rem;
+}
+.card--author .card__title--author {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  max-height: 40%;
+  order: 1;
+}
+.card--author .card__title--author span {
+  color: #0250C9;
+}
+.card--author .card__description--author {
+  display: none;
+}
+.card--author .card__author--author {
+  font-family: Arial;
+  color: #272727;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 0.5rem;
+  order: 3;
+}
+.card--author div {
+  background-color: #5A5A5A;
+  width: 80px;
+  height: 1px;
+  left: calc(50% - 40px);
+  bottom: 0px;
+  order: 4;
+}
+
+/*card Cinema*/
+.card--cinema {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 574.07px;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #1C1C1F;
+  color: #F2F2F2;
+}
+.card--cinema .card__image--cinema {
+  width: 100%;
+  min-height: 450.07px;
+  background-color: #BCD6FF;
+  outline: 1px solid #F2F2F2;
+}
+.card--cinema .card__title--cinema {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  padding: 0.5rem 1rem;
+}
+.card--cinema .card__description--cinema {
+  display: none;
+}
+.card--cinema .card__author--cinema {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  padding-top: 0.5rem;
+  padding: 0px 1rem 0.5rem 1rem;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}/*# sourceMappingURL=styles.css.map */
