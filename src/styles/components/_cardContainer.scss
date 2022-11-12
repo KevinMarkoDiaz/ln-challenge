@@ -1,32 +1,34 @@
-.card__container{
-    display: flex;
-    flex-direction: column;
-    max-width: 1440px;
-}
-
 @mixin layout-grid {
     grid-gap: 5px;
     grid-auto-rows: minmax(100px, auto);
     display: grid;
 }
 
+.card__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+}
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
 
-    .card__container{        
+    .card__container {
         grid-template-columns: repeat(2, 1fr);
         @include layout-grid;
     }
 }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
-    .card__container{        
+    .card__container {
         grid-template-columns: repeat(3, 1fr);
         @include layout-grid;
     }
 }
+
 @media screen and (min-width: 1025px) {
 
-    .card__container{        
+    .card__container {
         grid-template-columns: repeat(4, 1fr);
         @include layout-grid;
     }

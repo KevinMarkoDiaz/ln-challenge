@@ -107,4 +107,4 @@ export const products = [
         imagen_del_autor: "...",
         url: "..."         
     },
-]
+];

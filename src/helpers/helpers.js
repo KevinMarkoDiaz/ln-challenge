@@ -3,15 +3,11 @@ export const selectRender = () => {
 
     switch (randomNumber) {
         case 1:
-            return 'author'
-            break;
+            return 'author'         
         case 2:
-            return 'regular'
-            break;
+            return 'regular'         
         case 3:
-            return 'cinema'
-            break;
-
+            return 'cinema'         
         default:
             break;
     }
