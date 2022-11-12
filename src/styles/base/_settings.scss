@@ -5,6 +5,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+  .App__rubricas{
+    margin: 2rem;
+  }
 }
 $tipografia-encabezados: 'Roboto Slab', serif;
 $tipografia-encabezados-color-azul: #0250C9;

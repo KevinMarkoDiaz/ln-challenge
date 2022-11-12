@@ -9,7 +9,6 @@ export const ArticlesModule = () => {
             <div className='module__layout'>
                 <div className="module__layout--left">
                     <Card render='regular' data={products[0]} />
-
                 </div>
                 <div className="module__layout--centerup">
                     <Card render='author' data={products[0]} />
@@ -24,12 +23,10 @@ export const ArticlesModule = () => {
 
                 </div>
             </div>
-            <div className='module__footer'>
-                <p className='module__footer--negrilla'>editoriales</p>
-                <span/>
-                <p>cuando se dieron cuenta</p>
-                <span/>
-                <p>cuando se dieron cuenta</p>
+            <div className='module__footer'>            
+                <p className='module__footer--negrilla'>editoriales</p>               
+                <div className='module__footer--text'><div className='module__footer--point'>·</div>Cuando se dieron cuenta</div>                
+                <div className='module__footer--text'><div className='module__footer--point'>·</div>Cuando se dieron cuenta</div>
             </div>
         </div>
     )
