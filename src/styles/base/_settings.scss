@@ -1,6 +1,11 @@
 *{
     margin: 0px;
 }
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 $tipografia-encabezados: 'Roboto Slab', serif;
 $tipografia-encabezados-color-azul: #0250C9;
 $tipografia-contenido: Arial;
