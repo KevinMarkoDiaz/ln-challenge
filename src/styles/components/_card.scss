@@ -56,12 +56,13 @@
 
 .card--author {
     @include flex-colum;
+    position: relative;
     width: auto;
     height: min-content;
     margin: 20px;
     padding: 1rem 1rem 0px 1rem;
     align-items: center;
-    border: 1px solid #CCCCCC;
+    outline: 1px solid #CCCCCC;
 
     .card__image--author {
         width: 56.57px;
@@ -100,12 +101,14 @@
         order: 3;
     }
 
-    & div {
+    .card__separator--author {
+        position: absolute;
+        transform: rotate(-180deg);
         background-color: #5A5A5A;
         width: 80px;
         height: 1px;
         left: calc(50% - 80px/2);
-        bottom: 0px;
+        bottom: -1px;
         order: 4;
     }
 }

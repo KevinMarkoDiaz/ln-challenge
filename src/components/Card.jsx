@@ -21,7 +21,8 @@ export const Card = ({
       </h3>
       <p className={`card__description--${render}`}>{bajada}</p>
       <p className={`card__author--${render}`}>{autor}</p>
-      <div />
+    
+      <span className={`card__separator--${render}`}/>
     </div>
   )
 };

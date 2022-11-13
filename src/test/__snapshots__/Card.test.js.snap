@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - Cards.js - test Should match snapshot showing all the component 1`] = `
+<div>
+  <div
+    class="card--"
+  >
+    <div
+      class="card__image--"
+    >
+      <img
+        alt="imagen"
+      />
+    </div>
+    <h3
+      class="card__title--"
+    >
+      <span>
+        Lead. 
+      </span>
+    </h3>
+    <p
+      class="card__description--"
+    />
+    <p
+      class="card__author--"
+    />
+    <span
+      class="card__separator--"
+    />
+  </div>
+</div>
+`;
